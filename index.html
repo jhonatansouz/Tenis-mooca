@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TÊNIS MOOCA</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -89,15 +90,15 @@
    
     <div class="container hero" >
         <img class="main kenburns-top mt-03" src="./img/bg.jpg" alt="">
-        <h1 class="textimg" style="font-weight: 400">Venha conhecer nossas quadras!</h1>
-        <p  class="pimg" >A melhor infraestrtura da região !</p>
+        <h1 class="textimg mb-4" data-aos="fade-up" data-aos-delay="200" style="font-weight: 400">Venha conhecer nossas quadras!</h1>
+        <p  class="pimg" data-aos="fade-up" data-aos-delay="400" >A melhor infraestrtura da região !</p>
         
     </div>
     <!--======== SECTION PEOPLE=========-->
-   <section class="container" >
-    <div class="flex-item-3 flex-column">
-        <h2  class="mb-3" id="sobre" >Tênis mooca</h2>
-        <p class="mb-3 mr-3">
+   <section class="container" data-aos="fade-up" data-aos-delay="0" >
+    <div class="flex-item-3 flex-column" >
+        <h2  class="mb-3" id="sobre" data-aos="fade-up" data-aos-delay="200" >Tênis mooca</h2>
+        <p class="mb-3 mr-3" data-aos="fade-up" data-aos-delay="400">
             A Tênis mooca é uma familia que busca integrar diversas áreas
             para um estilo de vida mais saudável. Aqui você encontra Tênis,
             beach Tênis, bar e lanchonete,
@@ -115,7 +116,7 @@
         <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/ws_MBDUHLxQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
    </section>
-   <div class="quadras">
+   <div class="quadras" data-aos="fade-up" data-aos-delay="400">
     <h2 class="mt-3 flex-center">Quadras Tênis Mooca</h2>
         <p class="container">São uma quadra de beach Tênis e 4 quadras de saibro. O saibro é capaz de amortecer os impactos, aliviar articulações
         como tornozelos e joelhos dos jogadores, além de permitir deslizar e bater na bola ainda em movimento.
@@ -125,13 +126,13 @@
     </p>
    </div>
    <div class="quadrasft mt-3 ">
-       <div><a href="https://www.instagram.com/tenismooca_/"><img class="ftquadras mb-2" src="./img/eventos.jpg" alt=""></a></div>
-    <div><a href="https://www.instagram.com/tenismooca_/"><img class="ftquadras mb-2" src="./img/fototenis.jpg" alt=""></a></div>
-    <div><a href="https://www.instagram.com/tenismooca_/"><img class="ftquadras mb-2 " src="./img/familia.jpg" alt=""></a></div>
+       <div data-aos="fade-up" data-aos-delay="400"><a href="https://www.instagram.com/tenismooca_/"><img class="ftquadras mb-2" src="./img/eventos.jpg" alt=""></a></div>
+    <div data-aos="fade-up" data-aos-delay="600"><a href="https://www.instagram.com/tenismooca_/"><img class="ftquadras mb-2" src="./img/fototenis.jpg" alt=""></a></div>
+    <div data-aos="fade-up" data-aos-delay="800"><a href="https://www.instagram.com/tenismooca_/"><img class="ftquadras mb-2 " src="./img/familia.jpg" alt=""></a></div>
 
    </div>
 
-   <div class="insta mt-3 flex-center flex-column">
+   <div class="insta mt-3 flex-center flex-column" data-aos="fade-up" data-aos-delay="400">
     <a href=""><img class="" src="./svg/logo.svg" alt=""></a>
     <h3 class="mt-3 ml-3">tenismooca_</h3>
     <p class="mt-3">informacoes (11) 99023-3204 🎾 Aulas de Tênis e beach Tênis 🎾 Kids 🎾 Treinamento 🎾 Locações </p>
@@ -168,6 +169,11 @@
     <!--======== JS ===========-->
     <script defer src="js/app.js"></script>
     <script src="https://kit.fontawesome.com/1ff9e21907.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
 
 
 </body>

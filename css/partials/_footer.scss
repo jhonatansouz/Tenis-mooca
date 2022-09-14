@@ -6,6 +6,15 @@ footer{
 }
 
 .footerimg{
-  width: 50%;
-  height: 50%;
+  width: 60%;
+  margin-left: 40px;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include responsive(s){
+    height: auto;
+    margin-left: 90px;
+  }
+
 }

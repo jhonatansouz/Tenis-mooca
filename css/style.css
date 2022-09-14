@@ -487,6 +487,10 @@ a:hover {
   margin-left: 128px;
 }
 
+.ml-6 {
+  margin-left: 480px;
+}
+
 .mr-1 {
   margin-right: 8px;
 }
@@ -505,6 +509,10 @@ a:hover {
 
 .mr-5 {
   margin-right: 128px;
+}
+
+.mr-6 {
+  margin-right: 480px;
 }
 
 .mb-1 {

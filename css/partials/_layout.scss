@@ -204,6 +204,14 @@ $container-s: 540px;
   }
 }
 
+.video{
+  border-radius: 5px;
+  @include responsive(s){
+    margin-right: 120px;
+  }
+  
+}
+
 
 .quadras{
   text-align: center;

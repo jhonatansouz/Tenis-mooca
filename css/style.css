@@ -182,6 +182,15 @@
     transform-origin: bottom;
   }
 }
+.video {
+  border-radius: 5px;
+}
+@media screen and (max-width: 960px) {
+  .video {
+    margin-right: 120px;
+  }
+}
+
 .quadras {
   text-align: center;
 }

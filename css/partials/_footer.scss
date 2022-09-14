@@ -1,3 +1,11 @@
 footer{
     background:linear-gradient(220.94deg, #272524 14.43%, #2c2c2c 85.28% );
+    @include responsive(s){
+        height: auto;
+      }
+}
+
+.footerimg{
+  width: 50%;
+  height: 50%;
 }

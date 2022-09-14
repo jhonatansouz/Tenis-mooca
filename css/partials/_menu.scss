@@ -32,11 +32,11 @@ header{
     }
 }
 .logo{
-    width: 150px;
+    width: 180px;
     height: 120px;
     
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
     z-index: 999;
@@ -46,22 +46,24 @@ header{
     flex: 1 1 auto;
 
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
 }
 .navbar-desktop-item-2{
     flex: 1 1 auto;
 
     display: flex;
-    justify-content: flex-end;
+    
     align-items: center;
 }
 
 .menu-desktop{
     list-style: none;
 
+    margin-left: 180px;
+
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
 
     .menu-item{
@@ -335,7 +337,7 @@ header{
     }
 
     &:hover{
-        color: $primary-normal;
+        color: $secondary-normal;
 
         &::after{
             width: 100%;

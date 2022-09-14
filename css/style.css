@@ -114,7 +114,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  filter: brightness(60%);
+  filter: brightness(50%);
 }
 
 .textimg {
@@ -123,7 +123,7 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  color: #fff;
+  color: #f7f2fa;
 }
 
 .pimg {
@@ -133,12 +133,12 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  color: #fff;
+  color: #b2e2e1;
 }
 
 .kenburns-top {
-  -webkit-animation: kenburns-top 5s ease-out both;
-  animation: kenburns-top 5s ease-out both;
+  -webkit-animation: kenburns-top 8s ease-out both;
+  animation: kenburns-top 8s ease-out both;
 }
 
 @-webkit-keyframes kenburns-top {
@@ -191,6 +191,13 @@
   align-items: center;
   justify-content: center;
 }
+@media screen and (max-width: 960px) {
+  .quadrasft {
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+}
 
 .ftquadras {
   width: 360px;
@@ -211,8 +218,8 @@
 }
 
 .whatsapp-link {
-  -webkit-animation: wobble-hor-bottom 0.8s both;
-          animation: wobble-hor-bottom 0.8s both;
+  -webkit-animation: wobble-hor-bottom 2.5s both;
+          animation: wobble-hor-bottom 2.5s both;
   position: fixed;
   width: 60px;
   height: 50px;
@@ -770,10 +777,10 @@ header {
 }
 
 .logo {
-  width: 150px;
+  width: 180px;
   height: 120px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   z-index: 999;
 }
@@ -781,21 +788,21 @@ header {
 .navbar-desktop-item-1 {
   flex: 1 1 auto;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
 }
 
 .navbar-desktop-item-2 {
   flex: 1 1 auto;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
 }
 
 .menu-desktop {
   list-style: none;
+  margin-left: 180px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: center;
 }
 .menu-desktop .menu-item {
@@ -999,7 +1006,7 @@ header {
   background-color: #b2e2e1;
 }
 .nav-link-mobile:hover {
-  color: #f7f2fa;
+  color: #b2e2e1;
 }
 .nav-link-mobile:hover::after {
   width: 100%;
@@ -1016,6 +1023,16 @@ header {
 
 footer {
   background: linear-gradient(220.94deg, #272524 14.43%, #2c2c2c 85.28%);
+}
+@media screen and (max-width: 960px) {
+  footer {
+    height: auto;
+  }
+}
+
+.footerimg {
+  width: 50%;
+  height: 50%;
 }
 
 .div-card {

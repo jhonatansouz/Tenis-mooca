@@ -134,6 +134,7 @@ $container-s: 540px;
   width: 100%;
   height: 100%;
   
+  
   overflow: hidden;
 
   position: absolute;
@@ -171,8 +172,8 @@ $container-s: 540px;
     color: $secondary-normal;
 }
 .kenburns-top {
-	-webkit-animation: kenburns-top 8s ease-out both;
-	        animation: kenburns-top 8s ease-out both;
+	-webkit-animation: kenburns-top 6s ease-out both;
+	        animation: kenburns-top 6s ease-out both;
 }
 
 @keyframes kenburns-top {

@@ -137,8 +137,8 @@
 }
 
 .kenburns-top {
-  -webkit-animation: kenburns-top 8s ease-out both;
-  animation: kenburns-top 8s ease-out both;
+  -webkit-animation: kenburns-top 6s ease-out both;
+  animation: kenburns-top 6s ease-out both;
 }
 
 @-webkit-keyframes kenburns-top {

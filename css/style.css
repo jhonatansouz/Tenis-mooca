@@ -292,6 +292,17 @@
   margin-right: 20px;
 }
 
+.imgprecos {
+  width: 600px;
+  height: 800px;
+}
+@media screen and (max-width: 960px) {
+  .imgprecos {
+    width: 400px;
+    height: 600px;
+  }
+}
+
 h1 {
   color: #232224;
   font-family: "Comfortaa", cursive;

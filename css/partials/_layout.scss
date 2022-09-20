@@ -306,9 +306,14 @@ $container-s: 540px;
     
 }
 
-
-
-
+.imgprecos {
+  width: 600px;
+  height: 800px;
+  @include responsive(s){
+    width: 400px;
+    height: 600px;
+}
+}
 
 
 

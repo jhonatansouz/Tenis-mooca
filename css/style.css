@@ -114,7 +114,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  filter: brightness(50%);
+  filter: brightness(70%);
 }
 
 .textimg {
@@ -295,12 +295,20 @@
 .imgprecos {
   width: 600px;
   height: 800px;
+  border-radius: 7px;
 }
 @media screen and (max-width: 960px) {
   .imgprecos {
     width: 400px;
     height: 600px;
   }
+}
+
+.pat {
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 h1 {
@@ -1060,7 +1068,7 @@ footer {
 
 .footerimg {
   width: 60%;
-  margin-left: 40px;
+  margin-left: 90px;
   height: 60%;
   display: flex;
   align-items: center;

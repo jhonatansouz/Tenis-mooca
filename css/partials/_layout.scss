@@ -147,7 +147,7 @@ $container-s: 540px;
   align-items: center;
   justify-content: center;
  
-  filter: brightness(50%);
+  filter: brightness(70%);
 
 
 }
@@ -309,11 +309,18 @@ $container-s: 540px;
 .imgprecos {
   width: 600px;
   height: 800px;
+  border-radius: 7px;
   @include responsive(s){
     width: 400px;
     height: 600px;
 }
 }
 
+.pat{
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
 
 
